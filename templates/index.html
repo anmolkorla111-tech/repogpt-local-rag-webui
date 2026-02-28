@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RepoGPT</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>RepoGPT</h1>
+      <div class="status" id="status">Checking Ollama…</div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>Ask about your repo</h2>
+
+        <div class="row">
+          <input id="q" type="text" placeholder="e.g. What does main.py do?" />
+          <button id="ask">Ask</button>
+        </div>
+
+        <div class="small">
+          Tip: Ask short questions first. Answers cite file paths.
+        </div>
+
+        <div class="output" id="out"></div>
+      </section>
+
+      <section class="card">
+        <h2>Sources</h2>
+        <div class="sources" id="sources">—</div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Local only • Ollama + RAG</span>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
