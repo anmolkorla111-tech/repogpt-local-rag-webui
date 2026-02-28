@@ -56,12 +56,6 @@ RepoGPT is a \*\*local, CPU-friendly Retrieval-Augmented Generation (RAG)\*\* as
 
 
 
-\- Ollama Health OK  
-
-&nbsp; !\[Health](screenshots/04-health-ok.png)
-
-
-
 ---
 
 
