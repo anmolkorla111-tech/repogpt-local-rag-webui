@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Local generated index
+data/
+*.npy
+
+# Secrets
+.env
+
+# Logs
+*.log
