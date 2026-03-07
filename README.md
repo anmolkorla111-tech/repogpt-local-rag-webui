@@ -23,37 +23,7 @@ RepoGPT is a \*\*local, CPU-friendly Retrieval-Augmented Generation (RAG)\*\* as
 ✅ Shows answers with \*\*source file names\*\*  
 
 ✅ Works offline after model download
-
-
-
----
-
-
-
-\## Demo (Screenshots)
-
-
-
-> Save images inside `/screenshots` and keep these names.
-
-
-
-\- Home UI  
-
-&nbsp; !\[Home](screenshots/01-home.png)
-
-
-
-\- Answer + Sources  
-
-&nbsp; !\[Answer](screenshots/02-answer.png)
-
-
-
-\- Sources panel  
-
-&nbsp; !\[Sources](screenshots/03-sources.png)
-
+    
 
 
 ---
