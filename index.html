@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🕵️‍♂️ GOOGLE SEO META TAGS -->
+    <title>RepoGPT | Local RAG & AI DevOps Expert Portfolio</title>
+    <meta name="description" content="Official showcase for RepoGPT: A local, CPU-friendly Retrieval-Augmented Generation (RAG) assistant utilizing Ollama, FAISS, and FastAPI. Developed by a BCA scholar and PCP SDE Scholar from IIT Roorkee.">
+    <meta name="keywords" content="RepoGPT, Local RAG, IIT Roorkee PCP SDE, Ollama Web UI, FAISS Vector Search, FastAPI Python, BCA DevOps Portfolio">
+    <meta name="author" content="Aspiring Cloud & DevOps Engineer">
+
+    <!-- 🤖 Google Rich Snippet Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "RepoGPT - Local RAG Assistant",
+      "applicationCategory": "DevOpsApplication",
+      "operatingSystem": "Windows/Linux/MacOS",
+      "description": "A CPU-friendly local RAG assistant that answers code repository questions using Ollama, nomic-embed-text, and FAISS.",
+      "author": {
+        "@type": "Person",
+        "name": "BCA DevOps Scholar",
+        "jobTitle": "Backend & Cloud Engineer",
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "IIT Roorkee"
+        },
+        "description": "BCA Pursuing student and PCP SDE Scholar at IIT Roorkee, specializing in local LLM deployment, vector search databases, and automated system architecture."
+      }
+    }
+    </script>
+
+    <style>
+        body { background-color: #050507; color: #c9d1d9; font-family: 'Courier New', monospace; margin: 0; padding: 40px; }
+        .container { max-width: 800px; margin: 0 auto; border: 1px solid #1b1f23; padding: 30px; background: #0d1117; border-radius: 6px; }
+        h1 { color: #58a6ff; border-bottom: 1px solid #21262d; padding-bottom: 10px; margin-top: 0; }
+        h2 { color: #ff7b72; font-size: 18px; margin-top: 30px; }
+        p { line-height: 1.6; font-size: 14px; }
+        .profile-section { display: flex; gap: 20px; align-items: center; margin-bottom: 30px; }
+        .profile-img { width: 150px; height: 150px; border-radius: 6px; border: 2px solid #30363d; object-fit: cover; background: #21262d; }
+        .badge-container { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+        .badge { background: #21262d; color: #58a6ff; padding: 4px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; border: 1px solid #30363d; }
+        .badge.iit { background: #382224; color: #ff7b72; border: 1px solid #6e363a; }
+        .project-box { background: #050507; border: 1px solid #30363d; padding: 20px; border-radius: 4px; margin-top: 15px; }
+        .tech-tag { display: inline-block; background: #1f242c; color: #8b949e; padding: 2px 6px; margin: 2px; font-size: 11px; border-radius: 3px; border: 1px solid #30363d; }
+        .flow { color: #79c0ff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>● SYSTEM OPERATOR MAIN PORTFOLIO</h1>
+    
+    <!-- Profile Area -->
+    <div class="profile-section">
+        <img src="meri-photo.jpg" alt="DevOps Engineer Portrait" class="profile-img">
+        <div>
+            <div style="font-size: 18px; font-weight: bold; color: #fff;">Aspiring Cloud & DevOps Operations Engineer</div>
+            
+            <!-- Badges Matrix -->
+            <div class="badge-container">
+                <span class="badge">BCA Pursuing - 4th Semester</span>
+                <span class="badge iit">PCP SDE Program | IIT Roorkee</span>
+            </div>
+            
+            <p style="margin-top: 10px;">Focusing on local LLM deployment, vector search databases, and offline runtime infrastructure optimizations.</p>
+        </div>
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid #21262d; margin: 20px 0;">
+
+    <!-- About Section -->
+    <h2>🚀 CURRENT STATUS & DESCRIPTION</h2>
+    <p>
+        Currently pursuing a Bachelor of Computer Applications (BCA) degree (Expected Graduation: 2027) while simultaneously upskilling through the prestigious <strong>PCP SDE Program at IIT Roorkee</strong>. 
+        Specialized in building lightweight, high-performance applications that bring complex AI models down to low-spec consumer hardware. 
+        Experienced in handling offline containerized execution and optimizing embedding retrieval loops for smooth microservice delivery.
+    </p>
+
+    <!-- Project Section -->
+    <h2>💻 CORE ARCHITECTURE: REPO GPT (LOCAL RAG SYSTEM)</h2>
+    <div class="project-box">
+        <p style="font-weight: bold; color: #58a6ff; margin-top: 0;">CPU-Friendly Local Code Repository Assistant</p>
+        <p>
+            Engineered an offline Retrieval-Augmented Generation (RAG) system that allows users to query any codebase locally. Implemented document parsing and semantic embedding generation via <code>nomic-embed-text</code>, indexed inside a dense <code>FAISS</code> vector database for lightning-fast retrieval. The system pipelines relevant contexts directly into local <code>Ollama</code> LLMs via FastAPI gateways to stream precise answers with source citations.
+        </p>
+        
+        <p style="font-size: 12px; border-top: 1px dashed #30363d; padding-top: 10px;">
+            <span class="flow">Data Pipeline Flow:</span> Browser UI → FastAPI (/api/ask) → FAISS Retrieval → Ollama LLM → Answer + Source Extraction
+        </p>
+
+        <div style="margin-top: 15px;">
+            <span class="tech-tag">Ollama LLM</span>
+            <span class="tech-tag">FastAPI (Python)</span>
+            <span class="tech-tag">FAISS Vector Search</span>
+            <span class="tech-tag">Nomic Embeddings</span>
+            <span class="tech-tag">Responsive Chat UI</span>
+            <span class="tech-tag">CPU Optimization</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
